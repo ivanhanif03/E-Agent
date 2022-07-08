@@ -17,6 +17,11 @@ small {
     font-size: 12px;
 }
 
+.container {
+    max-width: 450px;
+    background: white;
+}
+
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     background-color: #f4f4f4;
 }
