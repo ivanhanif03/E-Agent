@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Detail Misi</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="assets/img/gboard-logo.png">
-    
+
     <!-- CDN -->
     <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
@@ -17,21 +18,37 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/menu.css">
 </head>
+
 <body class="bg-white">
     <div class="container p-3">
         <!-- DETAIL MISI -->
-        <a href="misi.html" class="btn mb-4" style="background-color:rgb(255, 218, 218) ;"><i class="bi bi-arrow-left fw-bolder"></i></a>
+        <a href="misi.html" class="btn mb-4" style="background-color:rgb(218, 235, 255) ;"><i
+                class="bi bi-arrow-left fw-bolder"></i></a>
         <div class="row mb-4">
             <div class="col-12">
                 <div class="d-flex justify-content-between">
                     <b class="fs-5">Misi Rahasia</b>
-                    <b class="text-danger fs-5">Point 40</b>
+                    <b class="text-primary fs-5">Point 40</b>
                 </div>
                 <hr>
                 <p class="card-text">
-                    Agen rahasia yang dikirim untuk mengetahui misteri kegagalan Impossible Mission Force (IMF). Tujuannya adalah menggagalkan pencurian daftar CIA di kedutaan Amerika di Praha. Terdapat beberapa agen rahasia yang sudah dikirim namun mereka juga gagal bahkan tewas saat penugasan. Namun seorang agen rahasia bernama Ethan Hunt berhasil selamat. Meskipun sempat berhadapan dengan seorang pembunuh, ia berhasil keluar dari mereka dan kembali ke Praha untuk perlindungan.
+                    Agen rahasia yang dikirim untuk mengetahui misteri kegagalan Impossible Mission Force (IMF).
+                    Tujuannya adalah menggagalkan pencurian daftar CIA di kedutaan Amerika di Praha. Terdapat beberapa
+                    agen rahasia yang sudah dikirim namun mereka juga gagal bahkan tewas saat penugasan. Namun seorang
+                    agen rahasia bernama Ethan Hunt berhasil selamat. Meskipun sempat berhadapan dengan seorang
+                    pembunuh, ia berhasil keluar dari mereka dan kembali ke Praha untuk perlindungan.
                 </p>
-                <a href="misi.html" class="btn btn-sm btn-danger">Selesaikan Misi</a>
+                <form action="">
+                    <div class="mb-3">
+                        <label for="formFileMultiple" class="form-label fw-bold">Upload Dokumen Misi</label>
+                        <input class="form-control" type="file" id="formFileMultiple" multiple required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="birth_date" class="form-label fw-bold">Tanggal Selesai</label>
+                        <input type="date" class="form-control" id="birth_date" required>
+                    </div>
+                    <button type="submit" class="btn btn-sm btn-primary">Selesaikan Misi</button>
+                </form>
             </div>
         </div>
     </div>
@@ -41,4 +58,5 @@
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <script src="assets/js/index.js"></script>
 <script src="assets/js/menu.js"></script>
+
 </html>

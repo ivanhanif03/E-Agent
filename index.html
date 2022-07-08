@@ -22,10 +22,11 @@
 <body class="bg-white">
     <div class="container p-3">
         <!-- TITLE -->
-        <div class="col-12 text-center">
-            <h5 class="mb-4 fw-bold">E-Agent</h5>
-            <hr>
+        <div class="col-12 d-flex justify-content-between">
+            <a href="reward.html" class="btn" style="background-color:rgb(218, 235, 255) ;"><i class="bi bi-arrow-left fw-bolder"></i></a>
+            <h5 class="fw-bold mt-2">E-Agent</h5>
         </div>
+        <hr>
 
         <!-- MENU -->
         <div class="row">
@@ -33,7 +34,7 @@
                 <div class="fixed-bottom">
                     <menu class="menu">
 
-                        <button class="menu__item active" style="--bgColorItem: #dc3545;">
+                        <button class="menu__item active" style="--bgColorItem: #2449af;">
                             <a href="index.html">
                                 <svg class="icon" viewBox="0 0 24 24">
                                     <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
@@ -42,7 +43,7 @@
                             </a>
                         </button>
 
-                        <button class="menu__item" style="--bgColorItem: #dc3545;">
+                        <button class="menu__item" style="--bgColorItem: #2449af;">
                             <a href="project.html">
                                 <svg class="icon" viewBox="0 0 24 24">
                                     <path d="M14 2H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V8l-6-6z" />
@@ -51,7 +52,7 @@
                             </a>
                         </button>
 
-                        <button class="menu__item" style="--bgColorItem: #dc3545;">
+                        <button class="menu__item" style="--bgColorItem: #2449af;">
                             <a href="reward.html">
                                 <svg class="icon" viewBox="0 0 24 24">
                                     <polygon
@@ -61,7 +62,7 @@
                             </a>
                         </button>
 
-                        <button class="menu__item" style="--bgColorItem: #dc3545;">
+                        <button class="menu__item" style="--bgColorItem: #2449af;">
                             <a href="faq.html">
                                 <svg class="icon" viewBox="0 0 24 24">
                                     <circle cx="12" cy="12" r="10"></circle>
@@ -71,7 +72,7 @@
                             </a>
                         </button>
 
-                        <button class="menu__item" style="--bgColorItem:#dc3545;">
+                        <button class="menu__item" style="--bgColorItem:#2449af;">
                             <svg class="icon" viewBox="0 0 24 24">
                                 <path d="M10 3H6a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h4M16 17l5-5-5-5M19.8 12H9" />
                             </svg>
@@ -114,7 +115,7 @@
         <!-- POINT & MISI -->
         <div class="row mb-4">
             <div class="col-6">
-                <div class="card border-0 bg-danger"">
+                <div class="card border-0" style="background:#2449af ;">
                     <div class="card-body text-white">
                         <div class="row">
                             <div class="col-4 me-2 mt-2">
@@ -129,19 +130,21 @@
                 </div>
             </div>
             <div class="col-6">
-                <div class="card border-0 h-100" style="background:#fdc21f ;">
-                    <div class="card-body text-white">
-                        <div class="row">
-                            <div class="col-4 me-2 mt-2">
-                                <img width="50" src="assets/img/goal.png" alt="">
-                            </div>
-                            <div class="col-7">
-                                Misi Selesai <br>
-                                <b>100%</b>
+                <a href="project_selesai.html" class="text-decoration-none">
+                    <div class="card border-0 h-100" style="background:#fdc21f ;">
+                        <div class="card-body text-white">
+                            <div class="row">
+                                <div class="col-4 me-2 mt-2">
+                                    <img width="50" src="assets/img/goal.png" alt="">
+                                </div>
+                                <div class="col-7">
+                                    Misi Selesai <br>
+                                    <b>100%</b>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
 
@@ -205,7 +208,7 @@
         <div class="row mb-4">
             <div class="d-flex justify-content-between mb-2">
                 <h6 class="fw-bold">Project</h6>
-                <a href="project.html" class="text-danger text-decoration-none">Lihat semua</a>
+                <a href="project.html" class="text-primary text-decoration-none">Lihat semua</a>
             </div>
             <div class="col-12 mb-2">
                 <a href="misi.html" class="text-decoration-none text-dark">
@@ -241,7 +244,7 @@
         <div class="row mb-5">
             <div class="d-flex justify-content-between mb-2">
                 <h6 class="fw-bold">Reward</h6>
-                <a href="reward.html" class="text-danger text-decoration-none">Lihat semua</a>
+                <a href="reward.html" class="text-primary text-decoration-none">Lihat semua</a>
             </div>
             <div class="col-12 mb-2">
                 <a class="text-decoration-none text-dark" href="detail_reward.html">
@@ -253,6 +256,9 @@
                                 <b class="card-title">Reward 1</b>
                                 <p class="card-text">Some quick example text to build on the card. </p>
                             </div>
+                        </div>
+                        <div class="card-footer text-primary fw-bolder">
+                            Point 40
                         </div>
                     </div>
                 </a>
@@ -266,6 +272,9 @@
                             <b class="card-title">Reward 2</b>
                             <p class="card-text">Some quick example text to build on the card. </p>
                         </div>
+                    </div>
+                    <div class="card-footer text-primary fw-bolder">
+                        Point 20
                     </div>
                 </div>
             </div>
